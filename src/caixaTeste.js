@@ -64,14 +64,14 @@ const compra9 = new CaixaDaLanchonete()
 // Deve imprimir "R$ 3,09" 
 console.log("Compra de 1 café no crédito = ", compra9, "\n");
 
-// Exemplo 10: Compra de 1 café através do credito
+// Exemplo 10: Compra de 1 café através do dinheiro
 const compra10 = new CaixaDaLanchonete()
     .calcularValorDaCompra('dinheiro', ['cafe,1']);
 
 // Deve imprimir "R$ 2,85" 
 console.log("Compra de 1 café no dinheiro = ", compra10, "\n");
 
-// Exemplo 11: Compra de 1 café através do dinheiro
+// Exemplo 11: Compra de 1 brioche(item inexistente) através do dinheiro
 const compra11 = new CaixaDaLanchonete()
     .calcularValorDaCompra('dinheiro', ['brioche,1']);
 
