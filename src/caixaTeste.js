@@ -71,7 +71,7 @@ const compra10 = new CaixaDaLanchonete()
 // Deve imprimir "R$ 2,85" 
 console.log("Compra de 1 café no dinheiro = ", compra10, "\n");
 
-// Exemplo 10: Compra de 1 café através do dinheiro
+// Exemplo 11: Compra de 1 café através do dinheiro
 const compra11 = new CaixaDaLanchonete()
     .calcularValorDaCompra('dinheiro', ['brioche,1']);
 
